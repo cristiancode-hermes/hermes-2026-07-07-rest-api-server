@@ -1,0 +1,34 @@
+{
+  "name": "restapi-server",
+  "version": "1.0.0",
+  "description": "Modern C++20 REST API Server",
+  "homepage": "https://github.com/cristiancode-hermes/hermes-2026-07-07-rest-api-server",
+  "dependencies": [
+    {
+      "name": "cpp-httplib",
+      "version": ">=0.18.2"
+    },
+    {
+      "name": "nlohmann-json",
+      "version": ">=3.11.3"
+    },
+    {
+      "name": "spdlog",
+      "version": ">=1.15.1"
+    }
+  ],
+  "overrides": [
+    {
+      "name": "cpp-httplib",
+      "version": "0.18.2"
+    },
+    {
+      "name": "nlohmann-json",
+      "version": "3.11.3"
+    },
+    {
+      "name": "spdlog",
+      "version": "1.15.1"
+    }
+  ]
+}

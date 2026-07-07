@@ -1,0 +1,31 @@
+# Build
+build/
+cmake-build-*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies downloaded by FetchContent
+_deps/
+
+# Python virtual env
+.venv/
+venv/
+
+# Environment
+.env
+*.log
+
+# Coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
